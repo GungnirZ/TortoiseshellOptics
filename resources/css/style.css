@@ -160,6 +160,7 @@ nav .span {
 .sub-text .paragraph {
   margin-right: 5%;
   width: 35%;
+  line-height: 1.4;
 }
 
 /* Footer Section */
@@ -183,4 +184,33 @@ footer {
 .footer span {
   margin-left: 1rem;
   color: black;
+}
+
+/* Media Query */
+
+  /*Tablet Section */
+@media only screen and (max-width: 960px) {
+  .head-container {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .container .main-text {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    height: 2.83rem;
+  }
+
+  .container h2 {
+    margin: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+  .heading {
+    margin-right: 13.2%;
+  }
+
+  .info {
+    margin-left: 4rem;
+  }
 }
